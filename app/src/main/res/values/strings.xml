@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">PipaRapipa</string>
     <string name="login_username">Username</string>
+    <string name="login_email"> Register Email</string>
     <string name="login_password">Password</string>
     <string name="button_login">Login</string>
     <string name="button_register">Register</string>
+    <string name="register_username">Register Username</string>
+    <string name="register_password">Register Passowrd</string>
     <string name="checkbox">Remember Me</string>
     <string name="login_invalid_credentials_message">Wrong! username or password.</string>
+    <string name="login_invalid_credentials_email">Write Email!</string>
+    <string name="login_invalid_credentials_username">Write Username!</string>
+    <string name="login_invalid_credentials_password">Write Password!</string>
 </resources>
