@@ -23,7 +23,7 @@ public class Validation {
         Matcher matcher = pattern.matcher(emails);
         return matcher.matches();
     }
-    private static final String CREDENTIALS_PATTERN3 = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\\\\S+$).{5,20}$";
+    private static final String CREDENTIALS_PATTERN3 = "[a-zA-Z]{5,20}$";
 
     public static boolean isPasswordValid(String passwords){
         Pattern pattern= Pattern.compile(CREDENTIALS_PATTERN3);

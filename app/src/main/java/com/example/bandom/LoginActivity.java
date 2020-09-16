@@ -37,6 +37,8 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     username.setError(getResources().getString(R.string.login_invalid_credentials_message));
                     username.requestFocus();
+                    password.setError(getResources().getString(R.string.login_invalid_credentials_password));
+                    password.requestFocus();
                 }
             }
         });
