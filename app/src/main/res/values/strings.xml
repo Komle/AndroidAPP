@@ -12,4 +12,5 @@
     <string name="login_invalid_credentials_email">Write Email!</string>
     <string name="login_invalid_credentials_username">Write Username!</string>
     <string name="login_invalid_credentials_password">Write Password!</string>
+    <string name="login_remember_me">Remember me</string>
 </resources>
