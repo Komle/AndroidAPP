@@ -13,4 +13,21 @@
     <string name="login_invalid_credentials_username">Write Username!</string>
     <string name="login_invalid_credentials_password">Write Password!</string>
     <string name="login_remember_me">Remember me</string>
+    <string name="rusys">Sunu rusys:</string>
+    <string name="buldogas">Buldogas</string>
+    <string name="spanielius">Spanielius</string>
+    <string name="pitbulis">Pitbulis</string>
+    <string name="pristatymas">Pristatymas:</string>
+    <string name="taip">Taip</string>
+    <string name="ne">Ne</string>
+    <string name="kaina">Kaina:</string>
+    <string name="payment">Atsiskaitymo budas</string>
+    <string name="country_prompt">Pasirinkti mokejimo buda:</string>
+    <string-array name="listas">
+        <item>Swedbank</item>
+        <item>Luminor</item>
+        <item>Revolut</item>
+        <item>Siauliu bankas</item>
+        <item>SEB</item>
+    </string-array>
 </resources>

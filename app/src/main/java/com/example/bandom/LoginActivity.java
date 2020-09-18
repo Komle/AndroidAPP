@@ -54,8 +54,8 @@ public class LoginActivity extends AppCompatActivity {
                             user.setRemembermeKeyForLogin(false);
                         }
 
-                    Intent gotoSearch = new Intent(LoginActivity.this, Search.class);
-                    startActivity(gotoSearch);
+                    Intent gotoPirkimas = new Intent(LoginActivity.this, PirkimasActivity.class);
+                    startActivity(gotoPirkimas);
                 } else {
                     username.setError(getResources().getString(R.string.login_invalid_credentials_message));
                     username.requestFocus();
